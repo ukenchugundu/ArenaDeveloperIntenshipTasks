@@ -1,1 +1,103 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uday Kumar — Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio: introduction, skills, projects and contact form with modern CSS styling." />
+  </head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <h1>Uday Kumar</h1>
+      <p>Frontend &amp; Full-Stack Intern</p>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About / Introduction -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Hello — I'm <strong>Uday Kumar</strong>. I build accessible, maintainable web pages and learning full-stack development. I enjoy creating UI with clean structure and good semantics.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <p>Technologies and tools I use:</p>
+      <ul>
+        <li>HTML5 (semantic markup)</li>
+        <li>CSS basics, responsive layout</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React (components, hooks)</li>
+        <li>Node.js &amp; Express</li>
+        <li>Databases: SQL / NoSQL</li>
+        <li>Git &amp; version control</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <article aria-labelledby="proj1">
+        <h3 id="proj1">SmartHealth Dashboard</h3>
+        <p>Responsive dashboard for health metrics and forecasting — practice project combining UI and API integration.</p>
+        <p>
+          <a href="#" title="SmartHealth demo">Live demo</a> |
+          <a href="#" title="SmartHealth source">Source code</a>
+        </p>
+      </article>
+      <article aria-labelledby="proj2">
+        <h3 id="proj2">CampusConnect</h3>
+        <p>College portal for sharing resources and events. Built with authentication and file uploads in a full-stack prototype.</p>
+        <p>
+          <a href="#" title="CampusConnect demo">Live demo</a> |
+          <a href="#" title="CampusConnect source">Source code</a>
+        </p>
+      </article>
+      <article aria-labelledby="proj3">
+        <h3 id="proj3">Image Classifier</h3>
+        <p>Machine learning prototype using transfer learning to classify screenshots and documents — demonstrates multidisciplinary work.</p>
+        <p>
+          <a href="#" title="Image Classifier notebook">Notebook</a> |
+          <a href="#" title="Image Classifier repo">Repository</a>
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <form id="contact-form" action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Udaykumar — Personal portfolio.</p>
+  </footer>
+</body>
+</html>
